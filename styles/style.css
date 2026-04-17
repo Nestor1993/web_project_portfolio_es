@@ -18,6 +18,13 @@ body {
   background-color: #111111;
 }
 
+.header__information {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 .header__information__name {
   max-width: 793px;
   height: 156px;
@@ -71,4 +78,143 @@ body {
   line-height: 20px;
   letter-spacing: 15%;
   color: #ffffff;
+}
+
+.header__information__profilePicture::before {
+  content: "";
+  position: absolute;
+  top: 240px;
+  left: 20px;
+  width: 300px;
+  height: 300px;
+  background-color: #fd2626;
+  z-index: 0;
+  border-radius: 10px;
+  filter: blur(80px);
+  opacity: 0.7;
+}
+
+.header__information__profilePicture {
+  padding-top: 40px;
+  padding-right: 120px;
+  position: relative;
+  display: inline-block;
+}
+
+.profilePicture {
+  position: relative;
+  z-index: 1;
+  min-width: 387px;
+  height: 500px;
+}
+
+.links {
+  padding-left: 80px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link__cv {
+  text-decoration: none;
+  max-width: 115px;
+  height: 25px;
+  font-family: "OpenSans", "sans-serif";
+  width: 600px;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.nav-link__cv:hover {
+  opacity: 50%;
+}
+
+.nav-link__git {
+  text-decoration: none;
+  max-width: 138px;
+  height: 25px;
+  font-family: "OpenSans", "sans-serif";
+  width: 600px;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.nav-link__git:hover {
+  opacity: 50%;
+}
+
+.nav-link__contact {
+  text-decoration: none;
+  max-width: 88px;
+  height: 25px;
+  font-family: "OpenSans", "sans-serif";
+  width: 600px;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.nav-link__contact:hover {
+  opacity: 50%;
+}
+
+.boxes {
+  display: flex;
+  gap: 28px;
+  padding-left: 39px;
+}
+
+.box1 {
+  width: 105px;
+  height: 5px;
+  background: linear-gradient(100deg, #f50000, #ff5151ea 50%);
+}
+
+.box2 {
+  width: 123px;
+  height: 5px;
+  background: linear-gradient(100deg, #f50000, #ff5151ea 50%);
+}
+
+.box3 {
+  width: 74px;
+  height: 5px;
+  background: linear-gradient(100deg, #f50000, #ff5151ea 50%);
+}
+
+.skills {
+  width: 603px;
+  height: 44px;
+  padding-top: 80px;
+  padding-left: 117px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.skills__text {
+  font-family: "ArchivoBlack", "sans-serif";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 35px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.skills-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 120px;
+  padding-top: 70px;
+  padding-right: 120px;
 }
