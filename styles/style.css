@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("../fonts/ArchivoBlack-Regular.woff");
+}
+
+@font-face {
+  font-family: "OpenSansItalic";
+  src: url("../fonts/OpenSans-Italic-VariableFont_wdth,wght.woff");
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-VariableFont_wdthwght.woff");
+}
+
+body {
+  max-width: 1440px;
+  background-color: #111111;
+}
+
+.header__information__name {
+  max-width: 793px;
+  height: 156px;
+  top: 89px;
+  left: 120px;
+  opacity: 1;
+}
+
+.name {
+  font-family: "ArchivoBlack", "sans-serif";
+  font-weight: 400;
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 100%;
+  letter-spacing: 0%;
+  padding-top: 89px;
+  padding-left: 118px;
+  padding-right: 527px;
+}
+
+.header__information__position {
+  max-width: 790px;
+  height: 25px;
+  padding-top: 70px;
+  padding-left: 120px;
+  opacity: 1;
+}
+
+.position {
+  font-family: "OpenSans", "sans-serif";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff80;
+}
+
+.header__information__description {
+  max-width: 793px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 120px;
+}
+
+.description {
+  font-family: "OpenSans", "sans-serif";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 15%;
+  color: #ffffff;
+}
