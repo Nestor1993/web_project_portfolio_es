@@ -218,3 +218,88 @@ body {
   padding-top: 70px;
   padding-right: 120px;
 }
+
+.project {
+  width: 487px;
+  height: 44px;
+  padding-top: 100px;
+  padding-left: 120px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.project__text {
+  font-family: "ArchivoBlack", "sans-serif";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.projects {
+  display: grid;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 120px;
+  grid-template-columns: repeat(2, 590px);
+}
+
+.porject-card {
+  position: relative;
+}
+
+.porject-card_immage {
+  width: 590px;
+  height: 330px;
+  top: 985px;
+  left: 120px;
+  angle: 0 deg;
+  opacity: 1;
+}
+
+.projects_immage__html5image {
+  position: absolute;
+  top: 280px;
+  left: 12px;
+  bottom: 10px;
+  right: 538px;
+  width: 40px;
+  height: 40px;
+}
+
+.projects_immage__cssimage {
+  position: absolute;
+  top: 280px;
+  left: 62px;
+  bottom: 10px;
+  right: 538px;
+  width: 40px;
+  height: 40px;
+}
+
+.projects_immage__javascript {
+  position: absolute;
+  top: 280px;
+  left: 10px;
+  bottom: 10px;
+  right: 538px;
+  width: 40px;
+  height: 40px;
+}
+
+.porject-card__footer__links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.link-demo {
+  text-decoration: none;
+}
+
+.link-git {
+  text-decoration: none;
+}
